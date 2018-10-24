@@ -10,6 +10,12 @@ app {
     flex-direction: column;
 }
 
+textarea.form-control {
+    min-width: 100%;
+    resize: none;
+    text-wrap:none;
+}
+
 .top-row {
     height: 3.5rem;
     display: flex;

@@ -7,6 +7,7 @@ namespace RazorExplorer.Client
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<Generatrix>();
         }
 
         public void Configure(IBlazorApplicationBuilder app)
